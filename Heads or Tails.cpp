@@ -30,8 +30,8 @@ int main(){
     }
 
     cout << "Heads: " << Heads << ", Tails: " << Tails << endl;
-    if(Heads > Tails) cout << "You won!" << endl;
-    else cout << "You lost" << endl;
+    if(Heads > Tails) cout << name << " won!" << endl;
+    else cout << name << " lost" << endl;
     
     return 0;
 }
