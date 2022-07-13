@@ -1,9 +1,16 @@
 #include<iostream>
 #include<ctime>
+#include<string>
 using namespace std;
 
 int main(){
     srand(time(nullptr));
+
+    string name;
+    cout << "Who are you?" << endl;
+    cout << "> ";
+    cin >> name;
+    cout << "Hello, " << name << "!" << endl;
     
     const int ROOP = 3;
     int Heads = 0, Tails = 0;
